@@ -1,2 +1,2 @@
 # Nth Fibonacci
-Get the nith Fibonacci number.
+Get the nth Fibonacci number.
