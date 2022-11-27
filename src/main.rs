@@ -34,6 +34,7 @@ fn main() {
         }
         /* for single variables, one can pass "{<varname>}" to format!()
          * that won't work for function calls tho i.e. "{<fn_name>()}"
+         * named parameters: https://doc.rust-lang.org/std/fmt/#named-parameters
          */
         println!("{inp}th Fibonacci number = {}", nth_fibnum(inp));
     }
