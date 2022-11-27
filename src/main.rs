@@ -32,6 +32,9 @@ fn main() {
         if inp < 1 {
             process::exit(0);
         }
-        println!("{}th Fibonacci number = {}", inp, nth_fibnum(inp));
+        /* for single variables, one can pass "{<varname>}" to format!()
+         * that won't work for function calls tho i.e. "{<fn_name>()}"
+         */
+        println!("{inp}th Fibonacci number = {}", nth_fibnum(inp));
     }
 }
